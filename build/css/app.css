@@ -32,9 +32,6 @@ h1 { font-size: 56px; line-height: 1; font-family: "Open Sans", Helvetica, Arial
 
 .footer__wrap { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; height: 88px; line-height: 88px; }
 
-.map { position: relative; }
-.map__shadow { position: absolute; top: 0; right: 0; left: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.3); }
-
 .logo { display: inline-block; line-height: 0; }
 .logo__img { width: 127px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 
