@@ -1,0 +1,34 @@
+.projects
+  width: 100%
+  padding-top: 100px
+  padding-bottom: 120px
+
+  &__list
+    display: flex
+    justify-content: center
+    margin-top: 68px
+
+  &__el
+    padding: 0 20px
+    max-width: 440px
+    position: relative
+    display: flex
+    flex-direction: row
+    align-items: center
+    box-sizing: border-box
+
+    &:nth-child(odd)
+
+      &:after
+        position: absolute
+        content: ''
+        top: 50%
+        right: 0
+        width: 2px
+        height: 70px
+        transform: translateY(-50%)
+        background-color: #eee
+
+  &__link
+    &:hover
+      text-decoration: underline

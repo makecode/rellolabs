@@ -1,0 +1,89 @@
+
+=light
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif
+  font-weight: 300
+
+=semibold
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif
+  font-weight: 600
+
+$text: #272727
+$link: #0288d1
+
+body
+  display: flex
+  flex-direction: column
+  font-size: 14px
+  line-height: 1.4
+  min-width: 1170px
+  color: $text
+  +light
+
+a
+  color: $link
+  display: inline-block
+  text-decoration: none
+  cursor: pointer
+  transition: all .3s ease-in-out
+
+  &:active,
+  &:focus,
+  &:visited
+    text-decoration: none
+
+img
+  display: inline-block
+  max-width: 100%
+  height: auto
+
+h1
+  font-size: 56px
+  line-height: 1
+  +semibold
+
+.container
+  position: relative
+  margin: 0 auto
+  width: 1170px
+  box-sizing: border-box
+
+.main
+  flex: 0 0 auto
+  position: relative
+
+.header
+
+  &__wrap
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    height: 80px
+    line-height: 80px
+
+.footer
+
+  &__wrap
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    height: 88px
+    line-height: 88px
+
+.map
+  position: relative
+
+  &__shadow
+    position: absolute
+    top: 0
+    right: 0
+    left: 0
+    bottom: 0
+    background-color: rgba(#000, 0.3)
+
+.logo
+  display: inline-block
+  line-height: 0
+
+  &__img
+    width: 127px
+    display: flex

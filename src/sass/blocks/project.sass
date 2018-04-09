@@ -1,0 +1,27 @@
+.project
+  padding: 10px
+  display: flex
+  flex-direction: row
+  align-items: center
+  transition: all .3s ease-in-out
+
+  &:hover
+    background-color: rgba(#000, 0.05)
+
+    .project__title
+      text-decoration: underline
+
+  &__logo
+    flex-shrink: 0
+    width: 64px
+    margin-right: 15px
+
+    &:last-child
+      margin-right: 0
+
+  &__title
+    font-size: 18px
+    +semibold
+
+  &__descr
+    color: $text
